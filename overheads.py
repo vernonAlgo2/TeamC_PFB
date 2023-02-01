@@ -30,6 +30,3 @@ fp_cwd.touch()
 # opens the file to write the output
 with fp_cwd.open(mode="w", encoding = "UTF-8", newline ="") as file:
     file.write(f"[HIGHEST OVERHEADS]{highest_category.upper()}: {highest_percentage}%\n")
-
-        
-
