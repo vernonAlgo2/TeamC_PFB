@@ -17,7 +17,6 @@
 
 
 
-
 for expense in overhead_list:
     # Check if the current expense's percentage is greater than the current highest percentage
     if float(expense[1]) > highest_percentage:
